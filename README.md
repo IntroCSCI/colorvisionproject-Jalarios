@@ -20,7 +20,87 @@ g++ --std=c++11 main.cpp -o cvp
 Here is an example of the program running:
 
 ```
-!!!Replace with an example of the program running with user interaction!!!
+ g++ -std=c++11 main.cpp -o cvp; ./cvp
+Hello and Welcome to my Blue-yellow color blind test. 
+The test will begin easy at the start and will progressively get harder.
+
+=============================================
+
+Let's bring up the first two images.
+
+Test file for question 1
+
+
+pull up next two images
+
+Which image is blue? (Please selecr 1 or 2)
+1
+Good choice!
+
+
+=============================================
+
+
+Here is Question 2.
+
+Test file for question 2 
+
+pull up next two images
+
+Which image is green? (Please select 1 or 2)
+1
+Nice Try!
+
+
+=============================================
+
+
+Your final score is 
+                       1 Correct answers!
+                       1 Incorrect answers!
+
+Do you want to restart? (y or n)
+y 
+
+=============================================
+
+Let's bring up the first two images.
+
+Test file for question 1
+
+
+pull up next two images
+
+Which image is blue? (Please selecr 1 or 2)
+1
+Good choice!
+
+
+=============================================
+
+
+Here is Question 2.
+
+Test file for question 2 
+
+pull up next two images
+
+Which image is green? (Please select 1 or 2)
+2
+Good job!
+
+
+=============================================
+
+
+Your final score is 
+                       2 Correct answers!
+                       0 Incorrect answers!
+
+Do you want to restart? (y or n)
+n
+
+Thank you for your particpation!
 ```
 
 ## C++ Guide
