@@ -1,8 +1,8 @@
-# Test For Blue-Yellow Color Blindness
+# Test For Knowledge of Color Blindness
 
 ## Description
 
-My program will ask the user series of questions, which are different colors which are testing for Blue-yellow color blindness. It will keep track of how many colors they can distinguish from one another. This program will will be and can be expanded to ask more than the amount of questions I have written. 
+My program will ask the user series of questions, which are different general knowledge questions about color blindness. It will keep track of how many answers they can have correct. This program will will be and can be expanded to ask more than the amount of questions I have written. 
 
 ## Developer
 
@@ -21,19 +21,20 @@ Here is an example of the program running:
 
 ```
  g++ -std=c++11 main.cpp -o cvp; ./cvp
-Hello and Welcome to my Blue-yellow color blind test. 
+Hello and Welcome to Testing Your knowledge of Color Blindness. 
 The test will begin easy at the start and will progressively get harder.
 
 =============================================
 
-Let's bring up the first two images.
+Let's bring up the first question.
 
-Test file for question 1
+How many types of Color Blindness are there?
 
+1.) 4
 
-pull up next two images
+2.) 2
 
-Which image is blue? (Please selecr 1 or 2)
+Which choice is correct? (Please selecr 1 or 2)
 1
 Good choice!
 
@@ -43,49 +44,13 @@ Good choice!
 
 Here is Question 2.
 
-Test file for question 2 
+Which Color Blindness is the most common? 
 
-pull up next two images
+1.) Blue-yellow color blindness
 
-Which image is green? (Please select 1 or 2)
-1
-Nice Try!
+2.) Red-green color blindness
 
-
-=============================================
-
-
-Your final score is 
-                       1 Correct answers!
-                       1 Incorrect answers!
-
-Do you want to restart? (y or n)
-y 
-
-=============================================
-
-Let's bring up the first two images.
-
-Test file for question 1
-
-
-pull up next two images
-
-Which image is blue? (Please selecr 1 or 2)
-1
-Good choice!
-
-
-=============================================
-
-
-Here is Question 2.
-
-Test file for question 2 
-
-pull up next two images
-
-Which image is green? (Please select 1 or 2)
+Which choice is correct? (Please select 1 or 2)
 2
 Good job!
 
@@ -93,9 +58,23 @@ Good job!
 =============================================
 
 
+Here is Question 3.
+
+What perectange of people have Red-green color blindess? 
+
+1.) 10% of males and 1% of females
+
+2.) 8% of males and .05% of females
+
+Which choice is correct? (Please select 1 or 2)
+1 
+Nice Try!
+
 Your final score is 
                        2 Correct answers!
-                       0 Incorrect answers!
+                       1 Incorrect answers!
+
+You most know a lot about color blindness!
 
 Do you want to restart? (y or n)
 n
@@ -107,7 +86,7 @@ Thank you for your particpation!
 
 ### Variables and Data Types
 
-I have used only two variable types to start with, which are string and int. I used the string variable to first be able to read out what is in the test files. The second string variable is to check the user's final choice which is asking if it wanted to resart the program. For the int variables I use them to get the user's answers and to count if they got the question correct or wrong. 
+I have used only two variable types to start with, which are string and int. I used the string variable to first be able to read out what is in the test files. The second string variable is to check the user's final choice which is asking if it wanted to restart the program. For the int variables I use them to get the user's answers and to count if they got the question correct or wrong. 
 
 ### Input and Output
 
@@ -119,8 +98,8 @@ For decision I only used the if, else if, and else statement. I used this statem
 
 ### Iteration
 
-Iteration in my program is a do-while loop. I have used 3 do-while loops, the first is to loop the whole program if the user wants to resart at the end, the second and third do-while loop is for the if the user inputs a wrong choice that isn't a 1 or 2 for the questions.
+Iteration in my program is a do-while loop. I have used 4 do-while loops, the first is to loop the whole program if the user wants to resart at the end, the second, third, and fourth do-while loop is for the if the user inputs a wrong choice that isn't a 1 or 2 for the questions.
 
 ### File Input and Output
 
-For the file input and output, I only have 2 test files which I will need to replace later on with actucal color images for the test. For now I only have the program read out what is written in the file. Since I don't know how to use pixel colors yet that is my next step for this program. 
+For the file input and output, I only have 3 test files which will have the question and choices. For now I only have the program read out the questions in the files.
